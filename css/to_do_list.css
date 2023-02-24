@@ -1,0 +1,22 @@
+.root{
+
+    /*APARIENCIA*/
+    max-width: 40rem;
+    height: 100vh; /*100vh indica que el recuadro abarque el 100 del alto */
+    border: 1px solid black;
+    border-radius: 5px;
+
+    /*POSICIÓN Y POSICIÓN DE HIJOS*/
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    
+
+    /*COMPORTAMIENTO*/
+    /*Funcionalidad que tienen los botones, se observa generalmente en javascript*/
+
+}
+.root > h1{  /*root es archivo padre, modifica a los hijos, no nietos ni bisnietos*/
+    font-size: 4rem;
+    text-align: center;
+}
