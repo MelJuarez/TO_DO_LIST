@@ -17,6 +17,31 @@
 
 }
 .root > h1{  /*root es archivo padre, modifica a los hijos, no nietos ni bisnietos*/
+    margin-bottom: 3rem;
     font-size: 4rem;
+    font-family:  'Fredoka One', cursive;
     text-align: center;
+}
+
+.bt-todo{
+    border: 0;
+    background-color: rgb(32, 207, 155);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+
+    position: absolute;
+    right: 3rem;
+    bottom: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bt-todo > spam{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #ffff;
 }

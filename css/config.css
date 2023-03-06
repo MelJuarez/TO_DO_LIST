@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+:root{
+    --color-texto:rgb(39, 39, 39);
+}
+html, body{
     font-size: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Raleway', sans-serif; 
 }
