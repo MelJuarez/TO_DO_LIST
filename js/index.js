@@ -40,7 +40,14 @@ imprimir_todos();
 //CREAR UNA NUEVA TAREA
 
 function nueva_tarea (){
-data_list.push(nueva_tarea);
+data_list.push(
+    {
+        id : "4",
+        mensaje : "Arreglar cama",
+        estado : "true"
+    }
+);
+
 caja_de_todos.innerHTML="";
 imprimir_todos();
 }
