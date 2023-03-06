@@ -52,6 +52,10 @@ caja_de_todos.innerHTML="";
 imprimir_todos();
 }
 
+function modal(){
+    document.querySelector(".modal").classList.add("activar");
+}
+
 let boton = document.querySelector("#btn-todo");
-boton.addEventListener("click", nueva_tarea);
+boton.addEventListener("click", modal);
 

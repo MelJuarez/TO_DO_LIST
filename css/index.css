@@ -45,3 +45,26 @@
     font-weight: 600;
     color: #ffff;
 }
+
+/* --- MODAL -------*/
+.modal{
+    width: 80%;
+    height: 10rem;
+    background-color: rgb(32, 207, 155);
+
+
+    position: absolute;
+    /*Si todos los valores están en 0 y el margin auto debe centrarse*/
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    /*Existe la caja pero está oculta*/
+    display: none;
+}
+
+.activar{
+    display: block;
+}
