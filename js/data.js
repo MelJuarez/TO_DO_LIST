@@ -23,5 +23,4 @@ let data_list = [
 
 ];
 
-export {data_list};
 

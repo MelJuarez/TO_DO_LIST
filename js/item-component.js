@@ -1,4 +1,3 @@
-import { data_list } from "./data.js";
 
 
 
@@ -6,7 +5,7 @@ export function item_component (numero_tarea){
     
 let item = `
 <div class="todo_item">
-            <span class="ico">☑️</span>
+            <span id = "icoo" class="ico">☑️</span>
             <p>
             ${data_list[numero_tarea].mensaje}
             </p>
